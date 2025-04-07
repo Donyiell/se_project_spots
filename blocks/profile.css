@@ -6,6 +6,8 @@
 
 .profile__avatar {
   margin-right: 20px;
+  height: 190px;
+  width: 190px;
 }
 
 .profile__column {
@@ -32,9 +34,19 @@
 @media screen and (max-width: 627px) {
   .profile {
     flex-direction: column;
+    max-width: 288px;
+    align-items: center;
+    text-align: center;
   }
 
   .profile__avatar {
-    margin-right: 0;  
+    margin-right: 0;
+    height: 80px;
+    width: 80px;align-text: center;
   }
+
+  .profile__add-btn {
+    margin: 0;
+  }
+
 }
