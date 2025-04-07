@@ -1,5 +1,5 @@
 .cards {
-padding-top: 20px;
+  padding-top: 20px;
 }
 
 .cards__list {
@@ -11,4 +11,3 @@ padding-top: 20px;
   justify-content: center;
   gap: 40px 20px;
 }
-
