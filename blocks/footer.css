@@ -8,6 +8,6 @@
 .footer__copyright {
   display: flex;
   justify-content: center;
-  margin: 104px 0 0;
-  padding: 0 0 16px;
+  margin: 0;
+  padding: 60px 0;
 }
