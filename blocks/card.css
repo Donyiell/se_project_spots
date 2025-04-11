@@ -29,10 +29,11 @@
   background-repeat: no-repeat;
 }
 .card__like-btn:hover {
-  background-color: #fff;
-
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0 20px #604d59;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .card__title {
@@ -42,7 +43,7 @@
   white-space: nowrap;
   overflow: hidden;
   max-width: 335px;
-  font-size: 20px ;
+  font-size: 20px;
   line-height: 120%;
 }
 

@@ -25,7 +25,6 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   max-width: 300px;
-
 }
 
 .profile__discription {
@@ -52,6 +51,10 @@
   top: 2px;
 }
 
+.profile__edit-btn:hover {
+  cursor: pointer;
+}
+
 .profile__add-btn {
   margin-left: auto;
   width: 149px;
@@ -60,6 +63,11 @@
   color: #fcf5e5;
   border-radius: 10px;
   align-self: flex-end;
+  cursor: pointer;
+}
+
+.profile__add-btn:hover {
+  cursor: pointer;
 }
 
 .profile__add-icon {
