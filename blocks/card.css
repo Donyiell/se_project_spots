@@ -30,8 +30,6 @@
 }
 
 .card__like-btn:hover {
-  width: 23px;
-  height: 20px;
   opacity: 1;
   cursor: pointer;
 }
@@ -49,7 +47,7 @@
   padding: 0;
 }
 
-@media sreen and (max-width: 627px) {
+@media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
   }
