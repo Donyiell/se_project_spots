@@ -50,6 +50,7 @@
   font-weight: 500;
   padding: 0;
   display: flex;
+  background-color: transparent;
 }
 
 .profile__edit-icon {
@@ -107,7 +108,6 @@
   }
 
   .profile__edit-btn {
-    background-color: #fcf5e5;
     align-self: center;
     margin-bottom: 20px;
   }
