@@ -2,8 +2,12 @@ const profileEditBtn = document.querySelector(".profile__edit-btn");
 const editProfileModal = document.querySelector("#edit-profile-modal");
 const editProfileCloseBtn = editProfileModal.querySelector(".modal__close-btn");
 const editProfileForm = editProfileModal.querySelector(".modal__form");
-const editProfileNameInput = editProfileModal.querySelector("#profile-name-input");
-const editProfileDescriptionInput = editProfileModal.querySelector("#profile-name-input");
+const editProfileNameInput = editProfileModal.querySelector(
+  "#profile-name-input"
+);
+const editProfileDescriptionInput = editProfileModal.querySelector(
+  "#profile-name-input"
+);
 // - select based on id
 
 const profileAddBtn = document.querySelector(".profile__add-btn");
@@ -27,7 +31,6 @@ profileAddBtn.addEventListener("click", function () {
   editProfileModal.classList.add("modal__is-opened");
 });
 
-
 //  TODO declare newPostBtn
 // newPostBtn.addEventListener("click", function () {
 //   ProfileAddModal.classList.remove("modal_is-opened");
@@ -37,7 +40,7 @@ profileAddBtn.addEventListener("click", function () {
 // TODO Create event listeners for the new post form
 
 function handleEditProfileSubmit(evt) {
-  console.log('Event ', evt)
+  console.log("Event ", evt);
   evt.preventDefault();
   profileNameEl.textContent = editProfileNameInput.value;
   //TODO - Handler the other
