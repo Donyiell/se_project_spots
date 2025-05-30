@@ -98,7 +98,7 @@
   color: #212121;
 }
 
-.modal__input {
+.modal__input:hover {
   cursor: pointer;
   opacity: 1;
 }
