@@ -29,7 +29,7 @@
 
 .modal__close-btn {
   position: absolute;
-
+  padding: 0;
   top: 32px;
   right: 50px;
   width: 40px;
@@ -88,6 +88,7 @@
 
 .modal__input {
   display: block;
+  border: 8px;
   margin: 8px 0 0;
   font-size: 20px;
   line-height: 100%;
@@ -108,7 +109,7 @@
   color: #2121214d;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 288px) {
   .modal__is-opened {
     visibility: visible;
   }
