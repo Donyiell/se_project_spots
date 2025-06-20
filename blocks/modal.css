@@ -95,9 +95,9 @@
   font-weight: 500;
   width: 100%;
   height: 52px;
-  /*opacity: 40%;
-  color: #212121;*/
-  bord-color: rgba(33, 33, 33, 0.4);
+  /*opacity: 40%;*/
+  color: #212121;
+  border-color: rgba(33, 33, 33, 0.4);
 }
 
 .modal__input:hover {
