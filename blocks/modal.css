@@ -109,8 +109,8 @@
   color: #2121214d;
 }
 
-@media screen and (min-width: 288px) {
+/*@media mobile screen and (max-width: 288px) {
   .modal__is-opened {
     visibility: visible;
   }
-}
+}*/
